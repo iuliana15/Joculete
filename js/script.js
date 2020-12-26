@@ -161,10 +161,10 @@ let blackjackgame = {
 const YOU = blackjackgame['you']
 const DEALER = blackjackgame['dealer']
 
-const hitsound = new Audio('C:/Users/Iulia/Desktop/Javascript/challenges/music/swish.m4a')
-const bjclick = new Audio('C:/Users/Iulia/Desktop/Javascript/challenges/music/click_s7.mp3')
-const winsound = new Audio('C:/Users/Iulia/Desktop/Javascript/challenges/music/cash.mp3')
-const losssound = new Audio('C:/Users/Iulia/Desktop/Javascript/challenges/music/aww.mp3')
+const hitsound = new Audio('music/swish.m4a')
+const bjclick = new Audio('music/click_s7.mp3')
+const winsound = new Audio('music/cash.mp3')
+const losssound = new Audio('music/aww.mp3')
 
 
 
