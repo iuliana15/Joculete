@@ -1,0 +1,105 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Javascript</title>
+</head>
+
+<body>
+    <div class="container-1">
+        <h1>Challenge 1: Your age in Days</h1>
+        <div class="flex-box-container-1">
+
+            <button class="btn btn-primary" onclick="ageinDays()">Click me</button>
+
+            <button class="btn btn-danger" onclick="reset()">Reset</button>
+
+        </div>
+
+        <div class="flex-box-container-1">
+            <div id="flex-box-result"></div>
+        </div>
+    </div>
+
+
+    <div class="container-2">
+        <h1>Challenge 2: Cat Generator</h1>
+        <div class="flex-box-container-2" id="flex-cat-gen"></div>
+        <button class="btn btn-success" id="cat-gen-button" onclick="generateCat()">Generate Cat</button>
+
+    </div>
+
+
+    <div class="container-3">
+        <h1>Challenge 3: Rock, Paper, Scissors</h1>
+        <div class="flex-box-rps" id="flex-box-rps-div">
+            <img id="rock" src="extra/pinpng.com-the-rock-png-357151.png " height="190" width="230" onclick="rpsGame(this)">
+            <img id="paper" src="extra/pngfind.com-paper-bag-png-1361561.png" height="190" width="230" onclick="rpsGame(this)">
+            <img id="scissors" src="extra/pinpng.com-barber-scissors-png-832218.png " height="190" width="230" onclick="rpsGame(this)">
+        </div>
+        <div class="flex-box-container-1">
+            <button class="btn btn-danger" onclick="again()">Again</button>
+        </div>
+    </div>
+    <div class="container-4">
+        <h1>Challenge 4: Change the Color of all Buttons</h1>
+        <div class="flex-box-pick-color">
+            <form action="">
+                <select name="backdrop" id="background" onchange="colorbutton(this)">
+                    <option value="reset">Reset</option>
+                    <option value="random">Random</option>
+                    <option value="red">Red</option>
+                    <option value="green">Green</option>
+                </select>
+            </form>
+            <button class="btn btn-primary">ಥ_ಥ</button>
+            <button class="btn btn-success">＼(^ω^＼)</button>
+            <button class="btn btn-info">(◕‿-)</button>
+            <button class="btn btn-warning">(◠‿◠)</button>
+            <button class="btn btn-danger">〴⋋_⋌〵</button>
+
+        </div>
+    </div>
+    <div class="container-5">
+        <h1>Challenge 4: Blackjack 21</h1>
+        <h2><span id="jack-result">Let's play!</span></h2>
+        <div class="backgrjack">
+            <div class="flex-box-jack1">
+                <div id="your-box">
+                    <h2>You : <span id="your-result">0</span></h2>
+                </div>
+                <div id="dealer-box">
+                    <h2>Dealer : <span id="dealer-result">0</span></h2>
+                </div>
+            </div>
+            <div class="flex-box-jack2">
+                <div>
+                    <button class="btn-lg m-2 " id="hit-button">Hit</button>
+                    <button class="btn-lg m-2" id="stand-button">Stand</button>
+                    <button class="btn-lg m-2" id="deal-button">Deal</button>
+                </div>
+            </div>
+            <div class="flex-box-jack3">
+                <table>
+                    <tr>
+                        <th>Wins</th>
+                        <th>Losses</th>
+                        <th>Draws</th>
+                    </tr>
+                    <tr>
+                        <th><span id="wins">0</span></th>
+                        <th><span id="losses">0</span></th>
+                        <th><span id="draws">0</span></th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

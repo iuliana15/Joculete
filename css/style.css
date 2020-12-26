@@ -1,0 +1,83 @@
+.container-1,
+.container-2,
+.container-3,
+.container-4,
+.container-5 {
+    border: 1pc solid pink;
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.flex-box-container-1,
+.flex-box-container-2,
+.flex-box-rps,
+.flex-box-pick-color,
+.flex-box-jack1,
+.flex-box-jack2,
+.flex-box-jack3 {
+    display: flex;
+    border: 0px solid white;
+    padding: 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex-box-container-1 div {
+    display: flex;
+    padding: 20px;
+    border: 1px solid black;
+    align-items: center;
+}
+
+.flex-box-container-2 img {
+    margin: 20px;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 7);
+}
+
+.flex-box-rps img:hover {
+    filter: drop-shadow(0px 0px 30px purple);
+}
+
+.backgrjack {
+    border: 1px solid black;
+    background: url('namee.jpg') center;
+}
+
+.flex-box-jack1 div {
+    flex: 1;
+    border: 1px solid black;
+    padding: 10px;
+    height: 550px;
+    text-align: center;
+}
+
+.flex-box-jack1 img {
+    width: 25%;
+    margin: 10px;
+    border: 0.5px solid black;
+}
+
+.flex-box-jack2 button {
+    border: 1px solid black;
+}
+
+.flex-box-jack2 button:hover {
+    filter: drop-shadow(0px 0px 10px red);
+}
+
+.container-2 button {
+    flex: 1;
+    margin: 20px;
+    padding: 10px;
+}
+
+table,
+tr,
+th {
+    background-color: whitesmoke;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
